@@ -16,7 +16,7 @@ setFipsModeApproved=true
 
 App can be access @ https://<hostname>:8043 and clicking on the link on the page or directly accessing https://<hostname>:8043/SimpleServlet. 
 
-__The page comes up fine when access first time. The issue occurs upon accessing the page later. Try refreshing the page or accessing it later to see the issue. The error in the log file would be as below: 
+__The page comes up fine when access first time. The issue occurs upon accessing the page later. Try refreshing the page or accessing it later (after a minute or so) to see the issue. The error in the log file would be as below: 
 com.safelogic.cryptocomply.crypto.fips.FipsUnapprovedOperationError: Attempt to use approved implementation in unapproved thread: SHA-256__
 
 `com.safelogic.cryptocomply.crypto.fips.FipsUnapprovedOperationError: Attempt to use approved implementation in unapproved thread: SHA-256
