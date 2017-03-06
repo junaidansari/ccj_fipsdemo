@@ -43,3 +43,5 @@ com.safelogic.cryptocomply.crypto.fips.FipsUnapprovedOperationError: Attempt to 
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)`
+	
+# Note: Place the ccj 3.0.0 jar in WEB-INF/lib directory 
