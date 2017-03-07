@@ -1,4 +1,4 @@
-# Demo App using CCJ FIPS Provider
+# Demo App using CCJ 3.0.0 FIPS Provider
 
 This app aims at demonstrating the issue when using CCJ FIPS Provider started in FIPS unapproved mode and then changing the thread's FIPS mode to approved using `com.safelogic.cryptocomply.crypto.CryptoServicesRegistrar.setApprovedOnlyMode( true )` API.
 
